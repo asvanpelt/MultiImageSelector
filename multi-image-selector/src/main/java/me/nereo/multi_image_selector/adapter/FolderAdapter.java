@@ -78,7 +78,8 @@ public class FolderAdapter extends BaseAdapter {
         }
         if (holder != null) {
             if(i == 0){
-                holder.name.setText("所有图片");
+                //holder.name.setText("所有图片");
+                holder.name.setText(R.string.folder_all);
                 holder.size.setText(getTotalImageSize()+"张");
                 if(mFolders.size()>0){
                     Folder f = mFolders.get(0);

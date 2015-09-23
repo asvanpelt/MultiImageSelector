@@ -149,6 +149,7 @@ public class MultiImageSelectorFragment extends Fragment {
 
         mCategoryText = (TextView) view.findViewById(R.id.category_btn);
         // 初始化，加载所有图片
+
         mCategoryText.setText(R.string.folder_all);
         mCategoryText.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -172,6 +173,7 @@ public class MultiImageSelectorFragment extends Fragment {
         mPreviewBtn = (Button) view.findViewById(R.id.preview);
         // 初始化，按钮状态初始化
         if(resultList == null || resultList.size()<=0){
+
             mPreviewBtn.setText(R.string.preview);
             mPreviewBtn.setEnabled(false);
         }
@@ -288,6 +290,7 @@ public class MultiImageSelectorFragment extends Fragment {
 
                         if (index == 0) {
                             getActivity().getSupportLoaderManager().restartLoader(LOADER_ALL, null, mLoaderCallback);
+
                             mCategoryText.setText(R.string.folder_all);
                             if (mIsShowCamera) {
                                 mImageAdapter.setShowCamera(true);
@@ -415,6 +418,7 @@ public class MultiImageSelectorFragment extends Fragment {
                     if(resultList.size() != 0) {
                         mPreviewBtn.setEnabled(true);
                         mPreviewBtn.setText(getResources().getString(R.string.preview) + "(" + resultList.size() + ")");
+
                     }else{
                         mPreviewBtn.setEnabled(false);
                         mPreviewBtn.setText(R.string.preview);
