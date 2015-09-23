@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">多图选择器Selector de Imagenes</string>
+    <string name="folder_all">所有照片Todas las Imagenes</string>
+    <string name="preview">Vista Previa预览</string>
+    <string name="msg_no_camera">Camara Ausente没有系统相机</string>
+    <string name="msg_amount_limit">Cantidad de imagenes limitada已经达到最高选择数量</string>
+</resources>
