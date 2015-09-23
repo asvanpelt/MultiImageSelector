@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">多图选择器Selector de Imagenes</string>
+    <string name="app_name">Selector de Imagenes</string>
+    <string name="folder_all">Todas las Imagenes</string>
+    <string name="preview">Vista Previa</string>
+    <string name="msg_no_camera">Camara Ausente</string>
+    <string name="msg_amount_limit">Cantidad de Imagenes Limitada</string>
+    <string name="commit">Aceptar</string>
 
-    <string name="preview">Vista Previa预览</string>
-    <string name="msg_no_camera">Camara Ausente没有系统相机</string>
-    <string name="msg_amount_limit">Cantidad de imagenes limitada已经达到最高选择数量</string>
-    <string name="commit">Aceptar已经达到最高选择数量</string>
-    <string name="all_images">Todas las Imagenes</string>
 </resources>
