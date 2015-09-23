@@ -1,7 +1,7 @@
 # MultiImageSelector
-Image selector for Android device. Support single choice and multi-choice, in this version i work for the spanish translation
+Selector de Imagenes para android, soporta eleccion multiple y simple, en esta version trabajo por la traduccion al español
 
-[中文文档](README_zh.md)
+[中文文档](README_es.md)
 
 ###ART
 ![Example1](art/example_1.png) ![Select1](art/select_1.png) ![Select2](art/select_2.png) ![Select3](art/select_3.png)

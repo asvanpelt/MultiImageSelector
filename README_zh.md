@@ -1,5 +1,5 @@
 # MultiImageSelector
-仿微信实现多图选择。支持单选和多选两种模式
+仿微信实现多图选择。支持单选和多选两种模式Image selector for Android device. Support single choice and multi-choice, in this version i work for the spanish translation
 
 [English Doc](README.md)
 
